@@ -1,0 +1,6 @@
+[submodule "spot_msgs"]
+	path = spot_msgs
+	url = https://github.com/MASKOR/webots_spot_msgs
+[submodule "webots_spot"]
+	path = webots_spot
+	url = https://git.fh-aachen.de/SpotRescueTeam/webots_spot.git
