@@ -1,0 +1,6 @@
+bool request
+string message
+---
+bool result
+---
+string feedback

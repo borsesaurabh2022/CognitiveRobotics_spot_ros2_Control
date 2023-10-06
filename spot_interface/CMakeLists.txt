@@ -15,6 +15,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SpotStop.srv"
+  "srv/CanTransform.srv"
+  "action/ManipulatorAct.action"
+  "msg/TrigManireq.msg"
+  "msg/TrigManiresp.msg"
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
